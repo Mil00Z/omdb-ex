@@ -1,0 +1,31 @@
+:root{
+
+  --main-color:#454849;
+  --second-color:#659584;
+  --title: 2rem;
+  --head-title:1.5rem;
+  --border-style: 1px solid black;
+}
+
+
+.table-head{
+  font-size:var(--head-title);
+  color:var(--main-color);
+  font-weight:bold;
+}
+
+.movie--year{
+  font-style: italic;
+
+}
+.movie-title{
+  text-transform: uppercase;
+  font-size:var(--title);
+}
+.movie--img{
+  transition: transform 0.25s ease-in, filter 0.1s linear;
+}
+.movie--img:hover{
+  filter:grayscale(50%);
+  transform:scale3d(1.05,1.05,1.05);
+}
